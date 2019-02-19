@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.cell {
+  transition: 0.15s background-color;
+}
+
+.Circle {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 32px;
+  width: 32px;
+  border-radius: 64px;
+  background-color: hsl(0, 60%, 60%);
+  transition: 0.3s background-color;
+  margin: 4px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.Circle--toggled {
+  background-color: hsl(160, 60%, 60%);
+}

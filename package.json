@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.5",
+    "@types/node": "11.9.4",
+    "@types/react": "16.8.3",
+    "@types/react-dom": "16.8.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write --ignore-path .gitignore \"**/*.{ts,tsx,js,css}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "firefox 63",
+    "chrome 70"
+  ],
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
